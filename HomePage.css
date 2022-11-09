@@ -1,3 +1,19 @@
-div {
-    background-color: aqua;
+.navbar-nav>li {
+    margin-left: 57px;
+    margin-right: 57px;
+}
+
+.navbar-nav>li>a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.bg-lights {
+    background-color: white;
+}
+.navbar-brand{
+    margin-left: 90px;
 }
