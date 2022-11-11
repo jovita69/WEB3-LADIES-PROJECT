@@ -90,3 +90,16 @@
     box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
     border: 1px solid white
 }
+
+#mobilePosition1{
+    position: absolute;
+    left: 380px;
+    top: 450px;
+
+}
+
+#mobilePosition2{
+  position: absolute; 
+  left: 740px; 
+  top: 660px;
+}
