@@ -1,0 +1,258 @@
+#contentDiv {
+  margin-top: 600px;
+}
+
+.aboutHeaderTxt {
+  margin: 0 auto;
+  padding-top: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  opacity: 0.8;
+}
+
+#image1 {
+  position: absolute;
+  align-items: center;
+  left: 300px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-bottom: 0px;
+}
+
+.container1 > div {
+  width: 50%;
+  height: 700px;
+}
+
+#divCreateAccount {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#createAccountTxt {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  font-family: "Montserrat";
+  color: #fa4a0c;
+  font-style: normal;
+}
+
+#existingAccountTxt {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  width: 630px;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+#accountDesp {
+  color: #737373;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: -250px;
+}
+
+.container2 > div {
+  width: 50%;
+  height: 700px;
+}
+
+#row2 {
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 170px;
+}
+
+#image2 {
+  top: 2050px;
+  position: absolute;
+  align-items: center;
+  right: 50px;
+}
+
+#footerDiv {
+  background-image: url("../Images/Rectangle\ 47.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+
+#footerDespDiv {
+  color: white;
+  padding: 80px;
+}
+
+#downloadAppTxt {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  font-family: "Montserrat";
+}
+
+#downloadDesp {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+#downloadButton1 {
+  border-radius: 10px;
+  height: 64px;
+  background-color: #fa4a0c;
+  width: 142px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+  border: none;
+}
+
+#downloadButton2 {
+  border-radius: 10px;
+  height: 64px;
+  background-color: transparent;
+  width: 142px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+  border: 1px solid white;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+}
+
+#socialIcons > a > i {
+  color: #fa4a0c;
+}
+
+#container-mobile1 {
+  display: none;
+}
+
+#container-mobile2 {
+  display: none;
+}
+
+#container-mobile3 {
+  display: none;
+}
+
+#secondText {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #line {
+    display: none;
+  }
+
+  #contentDiv {
+    margin-top: 450px;
+  }
+
+  .aboutHeaderTxt {
+    margin: 0 auto;
+    padding-top: 15px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+  }
+
+  .container1 {
+    display: none;
+  }
+
+  .container2 {
+    display: none;
+  }
+
+  #image2 {
+    display: none;
+  }
+
+  #existingAccountTxt2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    width: 630px;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    width: inherit;
+  }
+
+  #container-mobile1 {
+    display: block;
+  }
+
+  #container-mobile2 {
+    display: block;
+  }
+
+  #container-mobile3 {
+    display: block;
+  }
+
+  #downloadDesp{
+    display: none;
+  }
+
+  #footerDiv {
+    background-image: none;
+    width: 100%;
+    height: 500px;
+    background-color: #252b42;
+    background-size: cover;
+  }
+
+
+  
+
+  #secondText {
+    display: block;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+  }
+}
