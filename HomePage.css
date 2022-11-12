@@ -47,7 +47,7 @@
     font-weight: 500;
     font-size: 24px;
     color: white;
-    margin-top: 27px;
+    
 }
 
 #buttonDiv{
@@ -102,4 +102,54 @@
   position: absolute; 
   left: 740px; 
   top: 660px;
+}
+
+@media only screen and (max-width:768px) {
+    #mobilePosition1{
+     position: absolute;
+     left: auto;
+
+
+    
+    }
+    
+    #headerDiv{
+        background-image: none;
+    }
+
+    #foodApp{
+        font-family: "montserrat";
+        font-weight: 700;
+        font-size: 16px;
+        color: #737373;
+        padding-top: 73px;
+    
+    }
+
+    #headerText{
+        color: #252B42;
+        margin-top: 17px;
+        line-height: 52px;
+        font-size: 36px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        font-family: "montserrat";
+        font-weight: 700;
+       max-width: 391px;
+        height: 128px;
+    }
+
+    #instruction{
+        font-family: "montserrat";
+        font-weight: 500;
+        font-size: 24px;
+        color: #737373;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        
+    }
+    
+    #mobilePosition2{
+    
+    }    
 }
