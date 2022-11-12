@@ -1,9 +1,9 @@
 .navbar-nav>li {
-    margin-left: 57px;
-    margin-right: 57px;
+    margin-left: 72px;
+    margin-right: 72px;
 }
 
-.navbar-nav>li>a {
+.nav-link {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 16px;
@@ -11,9 +11,176 @@
     text-align: center;
 }
 
-.bg-lights {
-    background-color: white;
+
+
+#headerDiv {
+    background-image: url("./images/lily-banse--YHSwy6uqvk-unsplash.jpg");
+    height: 619px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("./images/lily-banse--YHSwy6uqvk-unsplash.jpg");
 }
-.navbar-brand{
-    margin-left: 90px;
+
+#foodApp {
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    padding-top: 73px;
+
+}
+
+#headerText {
+    color: white;
+    margin-top: 17px;
+    line-height: 80px;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 700;
+    max-width: 973px;
+}
+
+#instruction {
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+
+}
+
+#buttonDiv {
+    margin-top: 54px;
+
+}
+
+#button1 {
+    height: 68px;
+    color: white;
+    padding: 16px, 0px, 16px, 0px;
+    width: 236px;
+    background-color: #FA4A0C;
+    border-radius: 30px;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: none;
+    margin-right: 15px;
+
+}
+
+#button2 {
+    height: 68px;
+    color: white;
+    padding: 16px, 0px, 16px, 0px;
+    width: 236px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+#mobilePosition1 {
+    position: absolute;
+    left: 380px;
+    top: 450px;
+
+}
+
+#mobilePosition2 {
+    position: absolute;
+    left: 740px;
+    top: 660px;
+}
+
+@media only screen and (max-width:768px) {
+
+    #mobilePosition1 {
+        position: absolute;
+        left: -75px;
+        top: 550px;
+        width: 460px;
+    }
+
+    #mobilePosition2 {
+        width: 200px;
+        position: absolute;
+        left: 200px;
+        top: 720px;
+    }
+
+    #headerDiv {
+        background-image: none;
+    }
+
+    #foodApp {
+        font-family: "montserrat";
+        font-weight: 700;
+        font-size: 16px;
+        color: #737373;
+        padding-top: 40px;
+
+    }
+
+    #headerText {
+        color: #252B42;
+        margin-top: 17px;
+        line-height: 52px;
+        font-size: 36px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        font-family: "montserrat";
+        font-weight: 700;
+        max-width: 391px;
+        height: 128px;
+    }
+
+    #instruction {
+        font-family: "montserrat";
+        font-weight: 500;
+        font-size: 24px;
+        color: #737373;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        max-width: 300px;
+    }
+
+    #button2 {
+        height: 68px;
+        color: #FA4A0C;
+        padding: 16px, 0px, 16px, 0px;
+        width: 236px;
+        background-color: transparent;
+        border-radius: 30px;
+        font-family: "montserrat";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        font-style: normal;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border: 1px solid #FA4A0C;
+        margin-top: 20px;
+        margin-left: 0px;
+        
+    }
+
+    #buttonDiv{
+        max-width: 236px;
+    }
+
+
+
 }
