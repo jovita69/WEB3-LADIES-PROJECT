@@ -94,31 +94,32 @@
 
 #mobilePosition1 {
     position: absolute;
-    left: 380px;
-    top: 450px;
+    left: 620px;
+    top: 610px;
 
 }
 
 #mobilePosition2 {
     position: absolute;
-    left: 740px;
+    left: 880px;
     top: 660px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) and (max-width: 1024px) and (max-width: 480px) {
 
     #mobilePosition1 {
         position: absolute;
-        left: -75px;
-        top: 550px;
-        width: 460px;
+        left: 30px;
+        top: 690px;
+        width: 46%;
     }
 
     #mobilePosition2 {
         width: 200px;
         position: absolute;
-        left: 200px;
-        top: 720px;
+        left: 203px;
+        top: 730px;
+        width: 43%;
     }
 
     #headerDiv {
@@ -138,13 +139,14 @@
         color: #252B42;
         margin-top: 17px;
         line-height: 52px;
-        font-size: 36px;
+        font-size: 30px;
         letter-spacing: 0.2px;
         text-align: center;
         font-family: "montserrat";
         font-weight: 700;
         max-width: 391px;
         height: 128px;
+        margin: 20px;
     }
 
     #instruction {
