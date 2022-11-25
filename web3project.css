@@ -1,0 +1,293 @@
+.navbar-nav>li {
+    margin-left: 62px;
+    margin-right: 62px;
+    color: whitesmoke;
+}
+
+.nav-link {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: whitesmoke
+    
+}
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+
+
+#headerDiv{
+    background-image: url("./images/new background image.png"); 
+    height: 619px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient( black (0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),url("./images/hotel_logo.png");
+    height: 618px;
+
+    
+}
+
+#WelcometoEhotel{
+    /* font-family: "Rubik";
+    /* font-weight: 700;
+    font-size: 96px;
+    color: white;
+    left: 120px;
+    width: 877px;
+    height: 144px; */
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    left: 120px;
+    width: 877px;
+    height: 144px;
+    font-family: "rubik";
+    font-style: normal;
+    line-height: 150%;
+    position:absolute;
+    display:flex;
+    margin-left: 3px;
+    
+    
+    
+}
+
+#headerText{
+    color: white;
+    top: 200px;
+    line-height: 50px;
+    font-size: 32px;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-family: "Rubik";
+    font-weight: 500;
+    position: absolute;
+    left: 120px;
+    height: 96px;
+    width: 488px;
+    margin-left: 120px;
+}
+
+#instruction{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(9, 9, 9);
+    
+}
+
+#buttonDiv{
+    margin-top: 54px;
+    
+}
+
+#button1{
+    height: 56px;
+    color: white;
+    padding: 16px,1px;
+    width: 200px;
+    background-color: #FA4A0C;
+    border-radius: 10px;
+    font-family: "rubik";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: none;
+    margin-top: 250px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-left: 120px;
+    
+}
+
+#button2{
+    height: 68px;
+    color: white;
+    padding: 16px,0px,16px,0px;
+    
+    width: 236px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: 1px solid white
+}
+
+#mobilePosition1{
+    position: absolute;
+    width: 508px;
+    height: 470px;
+    left: 120px;
+    top: 1076px;
+
+}
+
+#mobilePosition2{
+  position: absolute; 
+  left: 740px; 
+  top: 660px;
+}
+
+#roomDiv{
+    position: absolute;
+width: 508px;
+height: 470px;
+left: 120px;
+top: 1076px;
+
+}
+
+#aboutUs{
+    font-family: Rubik;
+font-size: 57px;
+font-weight: 700;
+line-height: 86px;
+letter-spacing: 0em;
+text-align: left;
+height: 86px;
+width: 262px;
+left: 589px;
+top: 914px;
+border-radius: nullpx;
+color: #FFFFFF;
+}
+
+#hrLine1{
+/* height: 0px;
+width: 50px;
+left: 670px;
+top: 1004px;
+position: absolute;
+width: 100px;
+height: 0px;
+left: 670px;
+border: 3px solid #D96707;
+border-radius: 5px;
+fill: #D96707;
+center border: 3px; */
+
+
+}
+
+#aboutLine1{
+    height: -15px;
+    left: 640px;
+    top: 850px;
+    position: absolute;
+    width: 160px;
+    height: -1px;
+    left: 520px;
+    border: 2px solid #D96707;
+    border-radius: 3px;
+    fill: #D96707;
+    align-items: center;
+    
+
+}
+#backGroundColor{
+    background-color: black;
+    width: 100%;
+
+}
+
+#navBar1{
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+}
+
+#ourRooms{
+    height: 65px;
+width: 308px;
+left: 400px;
+line-height: 86px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 308px;
+top: 1600px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 57.33px;
+line-height: 100%;
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.bg-dark{
+    background-color: black;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    #mobilePosition1{
+     position: absolute;
+     left: auto;
+
+
+    
+    }
+    
+    #headerDiv{
+        background-image: none;
+    }
+
+    #foodApp{
+        font-family: "";
+        font-weight: 700;
+        font-size: 16px;
+        color: white;
+        padding-top: 73px;
+    
+    }
+
+    #headerText{
+        color: white;
+        margin-top: 17px;
+        line-height: 52px;
+        font-size: 36px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        font-family: "rubik";
+        font-weight: 700;
+       max-width: 391px;
+        height: 128px;
+    }
+
+    #instruction{
+        font-family: "rubik";
+        font-weight: 500;back
+        font-size:4px;
+        color:black;
+        line-height: 38px;
+        letter-spacing:0.2px;
+        
+    }
+    
+    #mobilePosition2{
+    
+    }    
+}
